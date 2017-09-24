@@ -1,0 +1,249 @@
+@media(max-width:767px){
+	.home_bg{
+		background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.45)), url(https://www.appscore.com.au/wp-content/uploads/2016/04/homepage_guy.jpg);
+		background-position: 100% 0% !important;
+	}
+	.navbar-brand img {
+	    width: 140px;
+	}
+	.menu-top .navbar-nav > li:last-child{
+		display: none;
+	}
+	/*start canvas*/
+	.menu-top .navbar-nav{
+		margin-top: 30px;
+	}
+	.navbar-collapse{
+	    position: absolute;
+	    left: 15px;
+	    top: 0;
+	    height: 100vh !important;
+	    max-height: 100vh !important;
+	    min-width:280px; 
+	    background: #f6f6f6;
+	    -webkit-transition: 1s ease-in-out;
+	    -moz-transition: 1s ease-in-out;
+	    -o-transition: 1s ease-in-out;
+	    transition: 1s ease-in-out;
+	    -webkit-transform: translate(-100%);
+	    -moz-transform: translate(-100%);
+	    -o-transform: translate(-100%);
+	    -ms-transform: translate(-100%);
+	    transform: translate(-100%);
+	}
+	.collapse.in{
+		-webkit-transform: translate(0);
+	    -moz-transform: translate(0);
+	    -o-transform: translate(0);
+	    -ms-transform: translate(0);
+	    transform: translate(0);
+	}
+	.menu-top .navbar-nav li a{
+		color:#000!important;
+	}
+	.menu-top .navbar-nav li a:hover{
+		background-color: #d6d6d6!important;
+	}
+	.menu-top .navbar-nav>.open>a, 
+	.menu-top .navbar-nav>.open>a:hover, 
+	.menu-top .navbar-nav>.open>a:focus{
+	    color:#000!important;
+    	background-color: #d6d6d6!important;
+	}
+	.menu-top .navbar-nav .dropdown-menu{
+		background: #d6d6d6;
+		padding: 15px;
+	}
+	.menu-top .navbar-nav .dropdown-menu li{
+		border-left: 3px solid #a7a7a7;
+	}
+	.caret{
+		color:#000!important;
+	}
+	/*end canvas*/
+	.wrp_logo{
+		width: 70%;
+		float: left;
+	}
+	.wrp_logo .navbar-brand{
+		width: 100%;
+	}
+	.wrp_logo .navbar-brand img{
+		margin: 0 auto;
+	}
+	.wrp_callout{
+		margin-top: 12px;
+		margin-right:4px;
+		float:right;
+	}
+	.wrp_callout a{
+		color:#ff0053;
+		font-size: 1.8em;
+	}
+	.wrp_slogan > p{
+		text-align: center;
+	}
+	.wrp_best_product{
+		margin:45px auto; 
+	}
+	.wrp_best_product_img img{
+		width:230px;
+		margin: 0 auto;
+		float: none!important;
+	}
+	.best_product_content{
+		text-align: center;
+	}
+	.description li{
+		margin-right: 15px;
+	}
+	.iframe-custom{
+	    width: 100%; 
+	    height: auto;
+	}
+}
+@media(min-width:768px) and (max-width:991px){
+	.navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px 0px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /* .navbar-text {
+        float: none;
+        margin: 15px 0;
+    } */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+        -webkit-transform: translate(-5%);
+	    -moz-transform: translate(-5%);
+	    -o-transform: translate(-5%);
+	    -ms-transform: translate(-5%);
+	    transform: translate(-5%);
+	    height: 100vh !important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+	.home_bg{
+		background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.45)), url(https://www.appscore.com.au/wp-content/uploads/2016/04/homepage_guy.jpg);
+		background-position: 100% 0% !important;
+	}
+	.navbar-brand img {
+	    width: 140px;
+	}
+	.menu-top .navbar-nav > li:last-child{
+		display: none;
+	}
+	/*start canvas*/
+	.menu-top .navbar-nav{
+		margin-top: 30px;
+	}
+	.navbar-collapse{
+	    position: absolute;
+	    left: 15px;
+	    top: 0;
+	    height: 100vh !important;
+	    max-height: 100vh !important;
+	    min-width:380px; 
+	    background: #f6f6f6;
+	    -webkit-transition: 1s ease-in-out;
+	    -moz-transition: 1s ease-in-out;
+	    -o-transition: 1s ease-in-out;
+	    transition: 1s ease-in-out;
+	    -webkit-transform: translate(-100%);
+	    -moz-transform: translate(-100%);
+	    -o-transform: translate(-100%);
+	    -ms-transform: translate(-100%);
+	    transform: translate(-100%);
+	}
+	.collapse.in{
+		-webkit-transform: translate(-5%);
+	    -moz-transform: translate(-5%);
+	    -o-transform: translate(-5%);
+	    -ms-transform: translate(-5%);
+	    transform: translate(-5%);
+	}
+	.menu-top .navbar-nav li a{
+		color:#000!important;
+	}
+	.menu-top .navbar-nav li a:hover{
+		background-color: #d6d6d6!important;
+	}
+	.menu-top .navbar-nav>.open>a, 
+	.menu-top .navbar-nav>.open>a:hover, 
+	.menu-top .navbar-nav>.open>a:focus{
+	    color:#000!important;
+    	background-color: #d6d6d6!important;
+	}
+	.menu-top .navbar-nav .dropdown-menu{
+		background: #d6d6d6;
+		padding: 15px;
+		border: 0;
+	    width: 100%;
+	    box-shadow: none;
+	}
+	.menu-top .navbar-nav .dropdown-menu li{
+		border-left: 3px solid #a7a7a7;
+	}
+	.caret{
+		color:#000!important;
+	}
+	/*end canvas*/
+	.wrp_logo{
+		width: 85%;
+		float: left;
+	}
+	.wrp_logo .navbar-brand{
+		width: 100%;
+	}
+	.wrp_logo .navbar-brand img{
+		margin: 0 auto;
+	}
+	.wrp_callout{
+		margin-top: 12px;
+		margin-right:4px;
+		float:right;
+	}
+	.wrp_callout a{
+		color:#ff0053;
+		font-size: 1.8em;
+	}
+	.wrp_slogan > p{
+		text-align: center;
+	}
+	.wrp_best_product{
+		margin:45px auto; 
+	}
+	.wrp_best_product_img img{
+		width:230px;
+		margin: 0 auto;
+		float: none!important;
+	}
+	.best_product_content{
+		text-align: center;
+	}
+}
+@media(min-width:992px) and (max-width:1199px){
+	.menu-top .navbar-nav li a{
+		font-size: 0.7em;
+	}
+}
+@media(min-width:1200px){
+
+}
